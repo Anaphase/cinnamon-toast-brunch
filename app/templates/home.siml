@@ -1,0 +1,62 @@
+div.container
+  
+  header
+    h1 @bind(app.name)
+  
+  section
+    div.row
+      span.span8.hidden-phone
+        p
+          "Oh hey! I didn't see you there :) How's it going? I see you decided to use Cinnamon Toast Brunch  as your "
+          a[href='http://brunch.io/'] 'Brunch'
+          ' skeleton. Good choice my friend. Now you can harness the power of '
+          a[href='http://angularjs.org/'] 'AngularJS'
+          ' & '
+          a[href='https://github.com/padolsey/SIML'] 'SIML'
+          ' like a boss. Plus, with optional '
+          a[href='http://coffeescript.org/'] 'CoffeeScript'
+          ' & '
+          a[href='http://learnboost.github.io/stylus/'] 'Stylus'
+          " support, you'll never have to write another semicolon or curly brace again!"
+        
+        p
+          "This example project is a simple todo manager. It demonstrates basic use of controllers, directives, filters, and services so it should give you a good idea of how to structure your new project. Good luck and happy coding!"
+        
+      span#todos.span4
+        
+        form
+          @submit(addTodo(new_todo_text))
+          input.span4[type=text][input-focus=new_todo_focus][input-blur=newTodoBlur()] @model(new_todo_text)
+        
+        p#count
+          span @bind((todos|pending).length)
+          ' of '
+          span @bind(todos.length)
+          ' todos left'
+        
+        div
+          @repeat(todo in todos)
+          
+          div.todo
+            @class({done: todo.done})
+            @click(todo.done=!todo.done)
+            
+            div.controls
+              @class({done: todo.done})
+              @click(removeTodo(todo))
+              @mouseenter(show_cross=true)
+              @mouseleave(show_cross=false)
+              
+              span.check
+                @hide(show_cross)
+                `&#10004;`
+              
+              span.cross
+                @show(show_cross)
+                `&#10008;`
+              
+            div.text @bind(todo.text)
+        
+    
+  footer @include('"partials/footer"')
+

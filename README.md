@@ -1,0 +1,76 @@
+Cinnamon Toast Brunch
+=====================
+
+![](http://i.imgur.com/i8UyOKN.png)
+
+**Never write a semicolon again!** With AngularJS, CoffeeScript, Stylus, & SIML, you get clean, easy to read code that compiles down to plain ol' JavaScript, CSS, & HTML.
+
+The philosophy behind Cinnamon Toast Brunch is to write as little code as possible. That means not having to bother with needless semicolons, curly braces, commas, colons, and (worst of all) angle brackets and other assorted HTML visual clutter.
+
+With Cinnamon Toast Brunch, your code is clean and concise. Of course, if you're a die hard fan of vanilla JavaScript and CSS, you can still use those in place of CoffeeScript and Stylus and write all the semicolons you want. Also, because Bootstrap is also included, there's additional LESS support for those of you who are somewhere in the middle ;)
+
+Oh yeah, only [Bootstrap's](http://twitter.github.io/bootstrap/) CSS is included, none of the JavaScript plugins. See [UI Bootstrap](http://angular-ui.github.io/bootstrap/) for an AngularJS port of Bootstrap's JavaScript.
+
+Getting Started
+===============
+
+Make sure to have [Brunch](http://brunch.io/) installed.
+
+Create your project using Cinnamon Toast Brunch with:
+
+	brunch new <your-project-name> -s github://Anaphase/cinnamon-toast-brunch
+
+Or simply copy the repository to your hard drive and rename it.
+
+App Structure
+=============
+
+```
+app
+  app.coffee
+  assets
+    index.html // holds the ng-view to display your templates
+    js
+      json3.js // JSON.stringify polyfill for AngularJS's IE support
+  partials
+    footer.siml
+  scripts
+    controllers.coffee
+    directives.coffee
+    filters.coffee
+    services.coffee
+  styles
+    styles.styl
+  templates
+    home.siml
+```
+
+Customize Bootstrap
+===================
+
+All Bootstrap stylesheet files can be found separated into `vendor/styles/bootstrap`. They're in the original [LESS](http://lesscss.org/) format in order to be easily customized and compiled together with the app build.
+
+License
+=======
+
+The MIT License (MIT)
+
+Copyright (c) 2013 Colin Wood
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.

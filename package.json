@@ -1,0 +1,23 @@
+{
+  "author": "Colin Wood",
+  "name": "cinnamon-toast-brunch",
+  "title": "Cinnamon Toast Brunch",
+  "description": "A Brunch skeleton utilizing AnularJS, CoffeeScript, Stylus, & SIML.",
+  "version": "1.0.0",
+  "engines": {
+    "node": "~0.6.10 || 0.8 || 0.9"
+  },
+  "dependencies": {
+    "css-brunch": "~1.5.1",
+    "less-brunch": "~1.5.2",
+    "stylus-brunch": "~1.6.1",
+    "clean-css-brunch": "~1.5.1",
+    
+    "uglify-js-brunch": "~1.5.1",
+    "javascript-brunch": "~1.5.1",
+    "coffee-script-brunch": "~1.5.1",
+    
+    "siml-angular-brunch": "~1.0.1"
+  },
+  "devDependencies": {}
+}

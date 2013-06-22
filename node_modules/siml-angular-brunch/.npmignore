@@ -1,0 +1,8 @@
+*~
+*.bak
+.DS_Store
+build.sh
+npm-debug.log
+test/
+src/
+CHANGELOG.md

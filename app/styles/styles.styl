@@ -1,0 +1,72 @@
+@import 'nib'
+
+body
+  font-size 1.2em
+  font-weight 100
+  line-height 1.3em
+  font-family 'Hevetica Neue Light', 'Hevetica Neue', 'Helvetica', 'Arial', sans-serif
+
+header
+  margin-top 30px
+
+section
+  margin-top 30px
+  padding-top 30px
+  
+  #todos
+    
+    relative top left
+    
+    form
+      margin-bottom 0
+    
+    .todo
+      
+      relative top left
+      padding-left 30px
+      margin-bottom 10px
+      
+      .controls
+        
+        absolute top left
+        margin 0
+        padding 0
+        width 30px
+        
+        .check
+          color #eee
+        
+        .cross
+          color #ff6666
+      
+      &:hover
+        cursor pointer
+        
+        &:not(.done)
+          .check
+            color #bbeebb
+      
+      &.done
+        
+        .text
+          color #ccc
+          text-decoration line-through
+        
+        .check
+          color #66dd66
+    
+    #count
+      color #aaa
+      font-size small
+      text-align center
+      absolute top -20px right 0px
+
+footer
+  font-size .8em
+  padding 30px 0
+  margin-top 30px
+  text-align center
+  border-top 1px solid #eeeeee
+  
+  .version
+    color #ddd
