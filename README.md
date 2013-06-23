@@ -7,7 +7,7 @@ Cinnamon Toast Brunch
 
 The philosophy behind Cinnamon Toast Brunch is to write as little code as possible. That means not having to bother with needless semicolons, curly braces, commas, colons, and (worst of all) angle brackets and other assorted HTML visual clutter.
 
-With Cinnamon Toast Brunch, your code is clean and concise. Of course, if you're a fan of writing lots of extra punctuation with your code, *you can still use vanilla JavaScript and CSS in place of CoffeeScript and Stylus* to write all the semicolons you want. Also, because Bootstrap is also included, there's additional LESS support for those of you who are somewhere in the middle ;)
+With Cinnamon Toast Brunch, your code is clean and concise. Of course, if you're a fan of writing lots of extra punctuation with your code, **you can still use vanilla JavaScript and CSS in place of CoffeeScript and Stylus** to write all the semicolons you want. Also, because Bootstrap is also included, there's additional LESS support for those of you who are somewhere in the middle ;)
 
 Oh yeah, only [Bootstrap's](http://twitter.github.io/bootstrap/) CSS is included, none of the JavaScript plugins. See [UI Bootstrap](http://angular-ui.github.io/bootstrap/) for an AngularJS port of Bootstrap's JavaScript.
 
