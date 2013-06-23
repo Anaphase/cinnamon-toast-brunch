@@ -2,7 +2,7 @@
   "author": "Colin Wood",
   "name": "cinnamon-toast-brunch",
   "title": "Cinnamon Toast Brunch",
-  "description": "A Brunch skeleton utilizing AnularJS, CoffeeScript, Stylus, & SIML.",
+  "description": "A Brunch skeleton utilizing AngularJS, CoffeeScript, Stylus, & SIML.",
   "version": "1.0.0",
   "engines": {
     "node": "~0.6.10 || 0.8 || 0.9"
