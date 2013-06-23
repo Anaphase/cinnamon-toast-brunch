@@ -3,7 +3,7 @@ Cinnamon Toast Brunch
 
 ![](http://i.imgur.com/i8UyOKN.png)
 
-**Never write a semicolon again!** With AngularJS, CoffeeScript, Stylus, & SIML, you get clean, easy to read code that compiles down to plain ol' JavaScript, CSS, & HTML.
+**Never write a semicolon again!** With [AngularJS](http://angularjs.org/), [CoffeeScript](http://coffeescript.org/), [Stylus](http://learnboost.github.io/stylus/), & [SIML](https://github.com/padolsey/SIML), you get clean, easy to read code that compiles down to plain ol' JavaScript, CSS, & HTML.
 
 The philosophy behind Cinnamon Toast Brunch is to write as little code as possible. That means not having to bother with needless semicolons, curly braces, commas, colons, and (worst of all) angle brackets and other assorted HTML visual clutter.
 
