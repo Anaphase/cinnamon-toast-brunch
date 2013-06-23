@@ -12,7 +12,7 @@ With Cinnamon Toast Brunch, your code is clean and concise. Of course, if you're
 Oh yeah, only [Bootstrap's](http://twitter.github.io/bootstrap/) CSS is included, none of the JavaScript plugins. See [UI Bootstrap](http://angular-ui.github.io/bootstrap/) for an AngularJS port of Bootstrap's JavaScript.
 
 Getting Started
-===============
+---------------
 
 Make sure to have [Brunch](http://brunch.io/) installed.
 
@@ -23,12 +23,11 @@ Create your project using Cinnamon Toast Brunch with:
 Or simply copy the repository to your hard drive and rename it.
 
 Sample Project
-==============
+---------------
 
 A simple todo app is included as a sort of boiler plate. The app demonstrates basic use of controllers, directives, filters, and services so it should give you a good idea of how to structure your new project.
 
-App Structure
--------------
+### App Structure
 
 ```
 app
@@ -52,18 +51,18 @@ app
     home.siml
 ```
 
-Automatic Router Generation via siml-angular-brunch
----------------------------------------------------
+### Automatic Router Generation via siml-angular-brunch
+
 Cinnamon Toast Brunch uses [siml-angular-brunch](http://github.com/Anaphase/siml-angular-brunch) to compile your SIML and inject the templates into the `$templateCache`. siml-angular-brunch can also optionally generate a simple AngularJS router for you. See [the documentation](https://github.com/Anaphase/siml-angular-brunch/blob/master/README.md#optional-router-generation) for details on how to enable and configure the router.
 
 
 Customize Bootstrap
-===================
+-------------------
 
 All Bootstrap stylesheet files can be found separated into `vendor/styles/bootstrap`. They're in the original [LESS](http://lesscss.org/) format in order to be easily customized and compiled together with the app build.
 
 License
-=======
+-------
 
 The MIT License (MIT)
 
