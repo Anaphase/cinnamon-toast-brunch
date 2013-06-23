@@ -23,12 +23,16 @@ angular.module('app.controllers', [])
       done: yes
     ,
       text: 'Learn CoffeeScript'
+      done: no
     ,
       text: 'Learn AngularJS'
+      done: no
     ,
       text: 'Learn SASS'
+      done: no
     ,
       text: 'Learn SIML'
+      done: no
     ]
     
     $scope.$watch 'todos', (->
