@@ -1,8 +1,8 @@
 {
-  "author": "Colin Wood",
-  "name": "cinnamon-toast-brunch",
-  "title": "Cinnamon Toast Brunch",
-  "description": "A Brunch skeleton utilizing AngularJS, CoffeeScript, Stylus, & SIML.",
+  "author": "Your Name",
+  "name": "your-project-name",
+  "title": "Your Project Name",
+  "description": "An awesome project utilizing Brunch, AngularJS, CoffeeScript, Stylus, & SIML.",
   "version": "1.0.0",
   "engines": {
     "node": "~0.8.0"
