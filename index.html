@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Cinnamon Toast Brunch : A Brunch skeleton utilizing AngularJS, CoffeeScript, Stylus, &amp; SIML." />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Cinnamon Toast Brunch</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/Anaphase/cinnamon-toast-brunch">View on GitHub</a>
+
+          <h1 id="project_title">Cinnamon Toast Brunch</h1>
+          <h2 id="project_tagline">A Brunch skeleton utilizing AngularJS, CoffeeScript, Stylus, &amp; SIML.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/Anaphase/cinnamon-toast-brunch/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/Anaphase/cinnamon-toast-brunch/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="cinnamon-toast-brunch" class="anchor" href="#cinnamon-toast-brunch"><span class="octicon octicon-link"></span></a>Cinnamon Toast Brunch</h1>
+
+<p><img src="http://i.imgur.com/i8UyOKN.png" alt=""></p>
+
+<p><strong>Never write a semicolon again!</strong> With <a href="http://angularjs.org/">AngularJS</a>, <a href="http://coffeescript.org/">CoffeeScript</a>, <a href="http://learnboost.github.io/stylus/">Stylus</a>, &amp; <a href="https://github.com/padolsey/SIML">SIML</a>, you get clean, easy to read code that compiles down to plain ol' JavaScript, CSS, &amp; HTML.</p>
+
+<p>The philosophy behind Cinnamon Toast Brunch is to write as little code as possible. That means not having to bother with needless semicolons, curly braces, commas, colons, and (worst of all) angle brackets and other assorted HTML visual clutter.</p>
+
+<p>With Cinnamon Toast Brunch, your code is clean and concise. Of course, if you're a fan of writing lots of extra punctuation with your code, <strong>you can still use vanilla JavaScript and CSS in place of CoffeeScript and Stylus</strong> to write all the semicolons you want. Also, because Bootstrap is also included, there's additional LESS support for those of you who are somewhere in the middle ;)</p>
+
+<p>Oh yeah, only <a href="http://twitter.github.io/bootstrap/">Bootstrap's</a> CSS is included, none of the JavaScript plugins. See <a href="http://angular-ui.github.io/bootstrap/">UI Bootstrap</a> for an AngularJS port of Bootstrap's JavaScript.</p>
+
+<h2>
+<a name="getting-started" class="anchor" href="#getting-started"><span class="octicon octicon-link"></span></a>Getting Started</h2>
+
+<p>Make sure to have <a href="http://brunch.io/">Brunch</a> installed.</p>
+
+<p>Create your project using Cinnamon Toast Brunch with:</p>
+
+<pre><code>brunch new &lt;your-project-name&gt; -s github://Anaphase/cinnamon-toast-brunch
+</code></pre>
+
+<p>Or simply copy the repository to your hard drive and rename it.</p>
+
+<h2>
+<a name="sample-project" class="anchor" href="#sample-project"><span class="octicon octicon-link"></span></a>Sample Project</h2>
+
+<p>A simple todo app is included as a sort of boiler plate. The app demonstrates basic use of controllers, directives, filters, and services so it should give you a good idea of how to structure your new project.</p>
+
+<h3>
+<a name="app-structure" class="anchor" href="#app-structure"><span class="octicon octicon-link"></span></a>App Structure</h3>
+
+<pre><code>app
+  app.coffee
+  assets
+    images
+      // just Bootstrap's icons in here
+    index.html // holds the ng-view to display your templates
+    js
+      json3.js // JSON.stringify polyfill for AngularJS's IE support
+  partials
+    footer.siml
+  scripts
+    controllers.coffee
+    directives.coffee
+    filters.coffee
+    services.coffee
+  styles
+    styles.styl
+  templates
+    home.siml
+</code></pre>
+
+<h3>
+<a name="automatic-router-generation-via-siml-angular-brunch" class="anchor" href="#automatic-router-generation-via-siml-angular-brunch"><span class="octicon octicon-link"></span></a>Automatic Router Generation via siml-angular-brunch</h3>
+
+<p>Cinnamon Toast Brunch uses <a href="http://github.com/Anaphase/siml-angular-brunch">siml-angular-brunch</a> to compile your SIML and inject the templates into the <code>$templateCache</code>. siml-angular-brunch can also optionally generate a simple AngularJS router for you. See <a href="https://github.com/Anaphase/siml-angular-brunch/blob/master/README.md#optional-router-generation">the documentation</a> for details on how to enable and configure the router.</p>
+
+<h2>
+<a name="customize-bootstrap" class="anchor" href="#customize-bootstrap"><span class="octicon octicon-link"></span></a>Customize Bootstrap</h2>
+
+<p>All Bootstrap stylesheet files can be found separated into <code>vendor/styles/bootstrap</code>. They're in the original <a href="http://lesscss.org/">LESS</a> format in order to be easily customized and compiled together with the app build.</p>
+
+<h2>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p>The MIT License (MIT)</p>
+
+<p>Copyright (c) 2013 Colin Wood</p>
+
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:</p>
+
+<p>The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Cinnamon Toast Brunch maintained by <a href="https://github.com/Anaphase">Anaphase</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
