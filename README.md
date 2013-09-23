@@ -18,7 +18,7 @@ Make sure to have [Brunch](http://brunch.io/) installed.
 
 Create your project using Cinnamon Toast Brunch with:
 
-	brunch new <your-project-name> -s github://Anaphase/cinnamon-toast-brunch
+	brunch new github://Anaphase/cinnamon-toast-brunch <your-project-name>
 
 Or simply copy the repository to your hard drive and rename it.
 
