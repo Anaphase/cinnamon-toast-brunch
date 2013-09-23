@@ -17,7 +17,7 @@
     "javascript-brunch": "~1.5.1",
     "coffee-script-brunch": "~1.5.1",
     
-    "siml-angular-brunch": "~1.0.1"
+    "siml-angular-brunch": "~1.0.2"
   },
   "devDependencies": {}
 }
