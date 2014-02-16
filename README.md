@@ -27,31 +27,6 @@ Sample Project
 
 A simple todo app is included as a sort of boiler plate. The app demonstrates basic use of controllers, directives, filters, and services so it should give you a good idea of how to structure your new project.
 
-### App Structure
-
-```
-app
-  app.coffee
-  assets
-    fonts
-      // just Bootstrap's icons in here
-    images
-    index.html // holds the ng-view to display your templates
-    js
-      json3.js // JSON.stringify polyfill for AngularJS's IE support
-  partials
-    footer.siml
-  scripts
-    controllers.coffee
-    directives.coffee
-    filters.coffee
-    services.coffee
-  styles
-    styles.styl
-  templates
-    home.siml
-```
-
 ### Automatic Router Generation via siml-angular-brunch
 
 Cinnamon Toast Brunch uses [siml-angular-brunch](http://github.com/Anaphase/siml-angular-brunch) to compile your SIML and inject the templates into the `$templateCache`. siml-angular-brunch can also optionally generate a simple AngularJS router for you. See [the documentation](https://github.com/Anaphase/siml-angular-brunch/blob/master/README.md#optional-router-generation) for details on how to enable and configure the router.

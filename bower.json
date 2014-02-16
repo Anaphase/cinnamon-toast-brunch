@@ -14,11 +14,11 @@
     "strapless": "latest"
   },
   "overrides": {
-    "strapless": {
-      "main": "less/bootstrap.less"
-    },
     "json3": {
       "main": "lib/json3.js"
+    },
+    "strapless": {
+      "main": "less/bootstrap.less"
     }
   }
 }
