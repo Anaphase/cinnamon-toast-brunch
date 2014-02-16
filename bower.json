@@ -1,0 +1,24 @@
+{
+  "name": "cinnamon-toast-brunch",
+  "version": "1.0.0",
+  "main": "public/js/app.js",
+  "dependencies": {
+    
+    "angular": "latest",
+    "angular-sanitize": "latest",
+    "angular-route": "latest",
+    "angular-cookies": "latest",
+    "angular-animate": "latest",
+    
+    "json3": "latest",
+    "strapless": "latest"
+  },
+  "overrides": {
+    "strapless": {
+      "main": "less/bootstrap.less"
+    },
+    "json3": {
+      "main": "lib/json3.js"
+    }
+  }
+}

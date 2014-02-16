@@ -10,20 +10,20 @@ exports.config =
   
   plugins:
     siml:
-      moduleName: 'app.templates'
+      moduleName: 'App.templates'
   
   files:
     javascripts:
       defaultExtension: 'coffee'
       joinTo:
         'js/app.js': /^app/
-        'js/vendor.js': /^vendor/
+        'js/vendor.js': /^(bower_components|vendor)/
     
     stylesheets:
       defaultExtension: 'styl'
       joinTo:
         'styles/app.css': /^app/
-        'styles/vendor.css': /^vendor/
+        'styles/vendor.css': /^(vendor|bower_components)/
       order:
         after: [
           'vendor/styles/bootstrap/responsive.less'
