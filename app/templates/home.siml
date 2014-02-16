@@ -5,7 +5,7 @@ div.container
   
   section
     div.row
-      span.span8.hidden-phone
+      div.col-md-8.visible-md.visible-lg
         p
           "Oh hey! I didn't see you there :) How's it going? I see you decided to use Cinnamon Toast Brunch  as your "
           a[href='http://brunch.io/'] 'Brunch'
@@ -22,17 +22,17 @@ div.container
         p
           "This example project is a simple todo manager. It demonstrates basic use of controllers, directives, filters, and services so it should give you a good idea of how to structure your new project. Good luck and happy coding!"
         
-      span#todos.span4
+      div#todos.col-md-4
         
         form
           @submit(addTodo(new_todo_text))
-          input.span4[type=text][input-focus=new_todo_focus][input-blur=newTodoBlur()] @model(new_todo_text)
-        
-        p#count
-          span @bind((todos|pending).length)
-          ' of '
-          span @bind(todos.length)
-          ' todos left'
+          div.form-group
+            p.pull-right#count
+              span @bind((todos|pending).length)
+              ' of '
+              span @bind(todos.length)
+              ' todos left'
+            input.form-control[type=text][input-focus=new_todo_focus][input-blur=newTodoBlur()] @model(new_todo_text)
         
         div
           @repeat(todo in todos)
