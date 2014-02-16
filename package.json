@@ -3,21 +3,21 @@
   "name": "your-project-name",
   "title": "Your Project Name",
   "description": "An awesome project utilizing Brunch, AngularJS, CoffeeScript, Stylus, & SIML.",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "engines": {
-    "node": "~0.8.0"
+    "node": "latest"
   },
   "dependencies": {
-    "css-brunch": "~1.5.1",
-    "less-brunch": "~1.5.2",
-    "stylus-brunch": "~1.6.1",
-    "clean-css-brunch": "~1.5.1",
+    "css-brunch": "latest",
+    "less-brunch": "latest",
+    "stylus-brunch": "latest",
+    "clean-css-brunch": "latest",
     
-    "uglify-js-brunch": "~1.5.1",
-    "javascript-brunch": "~1.5.1",
-    "coffee-script-brunch": "~1.5.1",
+    "uglify-js-brunch": "latest",
+    "javascript-brunch": "latest",
+    "coffee-script-brunch": "latest",
     
-    "siml-angular-brunch": "~1.0.2"
+    "siml-angular-brunch": "latest"
   },
   "devDependencies": {}
 }
