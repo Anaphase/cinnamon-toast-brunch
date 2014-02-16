@@ -33,8 +33,9 @@ A simple todo app is included as a sort of boiler plate. The app demonstrates ba
 app
   app.coffee
   assets
-    images
+    fonts
       // just Bootstrap's icons in here
+    images
     index.html // holds the ng-view to display your templates
     js
       json3.js // JSON.stringify polyfill for AngularJS's IE support
