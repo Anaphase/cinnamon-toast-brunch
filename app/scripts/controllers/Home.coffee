@@ -1,17 +1,12 @@
-'use strict'
-
-angular.module('app.controllers', [])
+angular.module('App.controllers', [])
 
 .controller('Home', [
   
-  'app'
   '$scope'
   '$timeout'
   'LocalStorage'
   
-  (app, $scope, $timeout, LocalStorage) ->
-    
-    $scope.app = app
+  ($scope, $timeout, LocalStorage) ->
     
     $scope.new_todo_text = ''
     $scope.new_todo_focus = on
@@ -41,10 +36,11 @@ angular.module('app.controllers', [])
     
     $scope.addTodo = (text) ->
       $scope.new_todo_text = ''
-      $scope.todos.push { text: text, done: no }
+      $scope.todos.push
+        done: no
+        text: text
       
     $scope.removeTodo = (todo) ->
       $scope.todos.splice $scope.todos.indexOf(todo), 1
-    
   
 ])

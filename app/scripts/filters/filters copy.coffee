@@ -1,6 +1,4 @@
-'use strict'
-
-angular.module('app.filters', [])
+angular.module('App.filters', [])
 
 .filter('pending', [
   -> (todos) -> (todo for todo in todos when todo.done is no)

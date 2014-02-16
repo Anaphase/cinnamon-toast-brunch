@@ -2,6 +2,6 @@ p
   'Made with '
   a[href='http://github.com/Anaphase/cinnamon-toast-brunch/'] 'Cinnamon Toast Brunch'
 p.version
-  span @bind(app.name)
+  span @bind(App.name)
   ' v'
-  span @bind(app.version)
+  span @bind(App.version)

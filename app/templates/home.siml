@@ -1,7 +1,7 @@
 div.container
   
   header
-    h1 @bind(app.name)
+    h1 @bind(App.name)
   
   section
     div.row
@@ -32,7 +32,7 @@ div.container
               ' of '
               span @bind(todos.length)
               ' todos left'
-            input.form-control[type=text][input-focus=new_todo_focus][input-blur=newTodoBlur()] @model(new_todo_text)
+            input.form-control[type=text][focus-when=new_todo_focus][on-blur=newTodoBlur()] @model(new_todo_text)
         
         div
           @repeat(todo in todos)
