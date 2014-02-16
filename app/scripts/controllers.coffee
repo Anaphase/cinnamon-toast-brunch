@@ -28,7 +28,7 @@ angular.module('app.controllers', [])
       text: 'Learn AngularJS'
       done: no
     ,
-      text: 'Learn SASS'
+      text: 'Learn Stylus'
       done: no
     ,
       text: 'Learn SIML'
