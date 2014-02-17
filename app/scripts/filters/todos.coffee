@@ -1,4 +1,4 @@
-angular.module('App.filters', [])
+angular.module('App.filters')
 
 .filter('pending', [
   
