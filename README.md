@@ -18,9 +18,15 @@ Make sure to have [Brunch](http://brunch.io/) installed.
 
 Create your project using Cinnamon Toast Brunch with:
 
-	brunch new github://Anaphase/cinnamon-toast-brunch <your-project-name>
+    brunch new https://github.com/Anaphase/cinnamon-toast-brunch.git <your-project-name>
 
-Or simply copy the repository to your hard drive and rename it.
+Or simply copy the repository to your hard drive and rename it. Then install all packages with:
+
+    npm install && bower install
+
+Then build the project and you're good to go:
+
+    brunch w --server
 
 Sample Project
 ---------------
