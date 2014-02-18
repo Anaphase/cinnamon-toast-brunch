@@ -24,10 +24,6 @@ exports.config =
       joinTo:
         'styles/app.css': /^app/
         'styles/vendor.css': /^(vendor|bower_components)/
-      order:
-        after: [
-          'vendor/styles/bootstrap/responsive.less'
-        ]
     
     templates:
       defaultExtension: 'siml'
