@@ -31,6 +31,7 @@
     "javascript-brunch": "latest",
     "coffee-script-brunch": "latest",
     
+    "auto-reload-brunch": "latest",
     "siml-angular-brunch": "latest"
   }
 }
