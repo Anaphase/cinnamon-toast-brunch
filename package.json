@@ -22,6 +22,11 @@
     }
   ],
   "dependencies": {
+    
+    "bower": "latest",
+    "brunch": "latest",
+    "auto-reload-brunch": "latest",
+    
     "css-brunch": "latest",
     "less-brunch": "latest",
     "stylus-brunch": "latest",
@@ -31,7 +36,7 @@
     "javascript-brunch": "latest",
     "coffee-script-brunch": "latest",
     
-    "auto-reload-brunch": "latest",
     "siml-angular-brunch": "latest"
+    
   }
 }
