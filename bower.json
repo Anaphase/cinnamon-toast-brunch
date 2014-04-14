@@ -5,10 +5,9 @@
   "dependencies": {
     
     "angular": "latest",
-    "angular-sanitize": "latest",
     "angular-route": "latest",
-    "angular-cookies": "latest",
     "angular-animate": "latest",
+    "angular-sanitize": "latest",
     
     "json3": "latest",
     "strapless": "latest"
