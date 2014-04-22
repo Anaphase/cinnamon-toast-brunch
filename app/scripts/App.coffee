@@ -4,7 +4,6 @@ angular.module('App.filters', [])
 angular.module('App.services', [])
 angular.module('App.directives', [])
 angular.module('App.controllers', [])
-angular.module('App.repositories', [])
 
 angular.module('App', [
   
@@ -18,7 +17,6 @@ angular.module('App', [
   'App.services'
   'App.directives'
   'App.controllers'
-  'App.repositories'
   
   # siml-angular-brunch modules
   'App.templates'
