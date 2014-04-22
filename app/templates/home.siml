@@ -20,7 +20,7 @@ div.container
           " support, you'll never have to write another semicolon or curly brace again!"
         
         p
-          "This example project is a simple todo manager. It demonstrates basic use of controllers, directives, filters, and services so it should give you a good idea of how to structure your new project. Good luck and happy coding!"
+          'This example project is a simple todo manager. It demonstrates basic use of controllers, directives, filters, and services so it should give you a good idea of how to structure your new project. Good luck and happy coding!'
         
       div#todos.col-md-4
         

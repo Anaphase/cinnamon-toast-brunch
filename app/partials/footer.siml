@@ -3,5 +3,5 @@ p
   a[href='http://github.com/Anaphase/cinnamon-toast-brunch/'] 'Cinnamon Toast Brunch'
 p.version
   span @bind(App.name)
-  ' v'
+  span ' v'
   span @bind(App.version)
