@@ -1,4 +1,4 @@
-angular.module('App.controllers', [])
+angular.module('App.controllers')
 
 .controller('Home', [
   
