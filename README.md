@@ -37,12 +37,6 @@ A simple todo app is included as a sort of boiler plate. The app demonstrates ba
 
 Cinnamon Toast Brunch uses [siml-angular-brunch](http://github.com/Anaphase/siml-angular-brunch) to compile your SIML and inject the templates into the `$templateCache`. siml-angular-brunch can also optionally generate a simple AngularJS router for you. See [the documentation](https://github.com/Anaphase/siml-angular-brunch/blob/master/README.md#optional-router-generation) for details on how to enable and configure the router.
 
-
-Customize Bootstrap
--------------------
-
-All Bootstrap stylesheet files can be found separated into `vendor/styles/bootstrap`. They're in the original [LESS](http://lesscss.org/) format in order to be easily customized and compiled together with the app build.
-
 License
 -------
 
